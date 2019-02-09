@@ -1,24 +1,12 @@
-#include <stdio.h>
-
-
-int main(void)
- {
-
-    int a,z=0;
-
-    scanf("%d",&a);
-
-    while(a!=0){
-
-    	z=z+1;
-
-    	a=a/10;
-
-    }
-
-    printf("%d",z);
-
-   
-return 0;
-
+#include<stdio.h>
+int main(){
+	int x,y,z=1,i=0;
+	scanf("%d",&x);
+	scanf("%d",&y);
+	while(i<y){
+		z=z*x;
+		i++;
+	}
+	printf("%d",z);
+	return 0;
 }
